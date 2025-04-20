@@ -4,7 +4,7 @@
   uses: streamlit/streamlit-app-action@v0.0.3
   with:
     # Filepath to the main app file (`streamlit run <this>`)
-    app-path: # optional, default is streamlit_app.py
+    app-path: # optional, default is app.py
     # Run ruff linting
     ruff: # optional, default is false
     # Command line arguments to pass to pytest
