@@ -27,7 +27,7 @@ local_css("style.css")
 @st.cache_data
 def load_data():
     try:
-        data = pd.read_csv("//Users//romykumari//Downloads//company_Data.csv")
+        data = pd.read_csv("./company_Data.csv")
         return data
     except FileNotFoundError:
         st.error("Error: company_Data.csv not found. Please ensure the file is in the correct directory.")
