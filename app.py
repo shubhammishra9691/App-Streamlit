@@ -14,7 +14,7 @@ st.set_page_config(
     )
 
 # Then continue with the rest of the script
-st.title("📊 Company Sales Dashboard")
+st.title("📊 Company Sales Dashboard By Shubham Mishra")
 
 # Load custom CSS
 def local_css(file_name):
